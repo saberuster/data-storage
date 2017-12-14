@@ -8,13 +8,18 @@ use SaberRuster\DataStorage\EqualInterface as Equalable;
 /**
  * Class DataStorage
  *
- * @author  liqi created_at 2017/12/14上午11:42
+ * @author  saberuster created_at 2017/12/14上午11:42
  * @package \SaberRuster\DataStorage
  */
 class DataStorage implements DataStorager
 {
     protected $p;
     protected $data_list;
+
+    public function __construct( array $data_list )
+    {
+        $this->data_list = $data_list;
+    }
 
     public function current()
     {
