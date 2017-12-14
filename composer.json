@@ -1,12 +1,17 @@
 {
   "name": "saberuster/data-storage",
+  "type": "library",
+  "description": "a data collection",
   "authors": [
     {
       "name": "saberuster",
       "email": "saberuster@gmail.com"
     }
   ],
-  "require": {},
+  "license": "Apache License 2.0",
+  "require": {
+    "php": "^7.1"
+  },
   "autoload": {
     "psr-4": {
       "SaberRuster\\DataStorage\\": "src/"
