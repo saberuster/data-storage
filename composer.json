@@ -1,0 +1,22 @@
+{
+  "name": "saberuster/data-storage",
+  "authors": [
+    {
+      "name": "saberuster",
+      "email": "saberuster@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SaberRuster\\DataStorage\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SaberRuster\\DataStorage\\Tests\\": "tests/"
+    }
+  }
+}
